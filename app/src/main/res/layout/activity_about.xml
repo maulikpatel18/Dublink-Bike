@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mp18.bikeapp.About">
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bike"
+        android:fontFamily="sans-serif-condensed"
+        android:text="This is a Dublin Bike App which has four activity.HomePage,ListButton,MapButton and About.In this app I fetched data from JCdecaux DublinBike API and shown in Listview by help of recyclerview and cardview.In Map Activity i used google map api key to display map and added marers on all bike stations so user can clink on those markers and get information about station."
+        android:textAlignment="textStart"
+
+        android:textSize="23sp"
+        android:textStyle="bold"
+      android:textColor="@color/colorAccent"
+        />
+
+</android.support.constraint.ConstraintLayout>
